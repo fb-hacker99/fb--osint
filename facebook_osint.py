@@ -38,6 +38,6 @@ if __name__ == '__main__':
 
     fb_url = sys.argv[1]
     if not fb_url.startswith("http"):
-        fb_url = "https://facebook.com/" + fb_url
+        fb_url = "https://facebook.com/irfan.jakaria.92" + fb_url
 
     extract_facebook_info(fb_url)
